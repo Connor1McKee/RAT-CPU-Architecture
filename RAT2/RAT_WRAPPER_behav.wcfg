@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RAT_WRAPPER_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RAT_WRAPPER" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="358840000fs"></ZoomStartTime>
+      <ZoomEndTime time="965340001fs"></ZoomEndTime>
+      <Cursor1Time time="640583000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/RAT_WRAPPER/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAT_WRAPPER/MCU/pc/PC_COUNT" type="array">
+      <obj_property name="ElementShortName">PC_COUNT[9:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_COUNT[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAT_WRAPPER/LEDS" type="array">
+      <obj_property name="ElementShortName">LEDS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LEDS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAT_WRAPPER/r_leds" type="array">
+      <obj_property name="ElementShortName">r_leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAT_WRAPPER/CATHODES" type="array">
+      <obj_property name="ElementShortName">CATHODES[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CATHODES[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAT_WRAPPER/ANODES" type="array">
+      <obj_property name="ElementShortName">ANODES[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ANODES[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group256" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/ALU/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/ALU/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/ALU/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[3:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/ALU/RESULT" type="array">
+         <obj_property name="ElementShortName">RESULT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">RESULT[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group265" type="group">
+      <obj_property name="label">FLAG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/flags/C_FLAG" type="logic">
+         <obj_property name="ElementShortName">C_FLAG</obj_property>
+         <obj_property name="ObjectShortName">C_FLAG</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/flags/Z_FLAG" type="logic">
+         <obj_property name="ElementShortName">Z_FLAG</obj_property>
+         <obj_property name="ObjectShortName">Z_FLAG</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group273" type="group">
+      <obj_property name="label">REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/regfile/ADDRX" type="array">
+         <obj_property name="ElementShortName">ADDRX[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRX[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/regfile/ADDRY" type="array">
+         <obj_property name="ElementShortName">ADDRY[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRY[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/regfile/RF_WR" type="logic">
+         <obj_property name="ElementShortName">RF_WR</obj_property>
+         <obj_property name="ObjectShortName">RF_WR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/regfile/DX_OUT" type="array">
+         <obj_property name="ElementShortName">DX_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DX_OUT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/regfile/DY_OUT" type="array">
+         <obj_property name="ElementShortName">DY_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DY_OUT[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/RAT_WRAPPER/MCU/controlunit/OPCODE_HI_5" type="array">
+      <obj_property name="ElementShortName">OPCODE_HI_5[4:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE_HI_5[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RAT_WRAPPER/MCU/controlunit/OPCODE_LO_2" type="array">
+      <obj_property name="ElementShortName">OPCODE_LO_2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE_LO_2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group57" type="group">
+      <obj_property name="label">ScratchRam</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/scratchram/ram" type="array">
+         <obj_property name="ElementShortName">ram[0:255][0:9]</obj_property>
+         <obj_property name="ObjectShortName">ram[0:255][0:9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/scratchram/DATA_IN" type="array">
+         <obj_property name="ElementShortName">DATA_IN[9:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/scratchram/SCR_ADDR" type="array">
+         <obj_property name="ElementShortName">SCR_ADDR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SCR_ADDR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/SCR_DATA_SEL" type="logic">
+         <obj_property name="ElementShortName">SCR_DATA_SEL</obj_property>
+         <obj_property name="ObjectShortName">SCR_DATA_SEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/SCR_ADDR_SEL" type="array">
+         <obj_property name="ElementShortName">SCR_ADDR_SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SCR_ADDR_SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/scratchram/SCR_WE" type="logic">
+         <obj_property name="ElementShortName">SCR_WE</obj_property>
+         <obj_property name="ObjectShortName">SCR_WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/scratchram/DATA_OUT" type="array">
+         <obj_property name="ElementShortName">DATA_OUT[9:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/pcMUX/FROM_STACK" type="array">
+         <obj_property name="ElementShortName">FROM_STACK[9:0]</obj_property>
+         <obj_property name="ObjectShortName">FROM_STACK[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/pcMUX/PC_MUX_SEL" type="array">
+         <obj_property name="ElementShortName">PC_MUX_SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_MUX_SEL[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group63" type="group">
+      <obj_property name="label">Stack Pointer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/SP/DATA_IN" type="array">
+         <obj_property name="ElementShortName">DATA_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/SP/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/SP/SP_LD" type="logic">
+         <obj_property name="ElementShortName">SP_LD</obj_property>
+         <obj_property name="ObjectShortName">SP_LD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/SP/SP_INCR" type="logic">
+         <obj_property name="ElementShortName">SP_INCR</obj_property>
+         <obj_property name="ObjectShortName">SP_INCR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAT_WRAPPER/MCU/SP/SP_DECR" type="logic">
+         <obj_property name="ElementShortName">SP_DECR</obj_property>
+         <obj_property name="ObjectShortName">SP_DECR</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

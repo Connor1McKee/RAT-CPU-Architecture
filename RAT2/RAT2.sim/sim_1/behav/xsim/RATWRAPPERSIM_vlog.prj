@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../RAT Files/ALU.sv" \
+"../../../../RAT Files/BCD.sv" \
+"../../../../RAT Files/CathodeDriver.sv" \
+"../../../../RAT Files/ControlUnit_Template.sv" \
+"../../../../RAT Files/FLAGS.sv" \
+"../../../../RAT Files/MUX.sv" \
+"../../../../RAT Files/ProgCounter.sv" \
+"../../../../RAT Files/ProgROM.sv" \
+"../../../../RAT Files/RATMCU.sv" \
+"../../../../RAT Files/RAT_WRAPPER.sv" \
+"../../../../RAT Files/RegFile.sv" \
+"../../../../RAT Files/ScrRam.sv" \
+"../../../../RAT Files/SevSegDisp.sv" \
+"../../../../RAT2.srcs/sources_1/new/Stack_Pointer.sv" \
+"../../../../RAT2.srcs/sim_1/new/RATWRAPPERSIM.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

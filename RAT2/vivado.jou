@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Mar 15 23:04:11 2019
+# Process ID: 1584
+# Current directory: C:/Users/conno/RAT2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7180 C:\Users\conno\RAT2\RAT2.xpr
+# Log file: C:/Users/conno/RAT2/vivado.log
+# Journal file: C:/Users/conno/RAT2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/conno/RAT2/RAT2.xpr
