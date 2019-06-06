@@ -1,1 +1,3 @@
-This is the repository for the RAT CPU architecture.
+This is the repository for the RAT CPU architecture. This code base can be launched with the Vivado Design Suite
+through the xpr file and is set to run the Bubble Blast game upon generating the bitstream. Necessary peripherals
+required to play the game include a standard keyboard, a VGA monitor, and a VGA cable.
